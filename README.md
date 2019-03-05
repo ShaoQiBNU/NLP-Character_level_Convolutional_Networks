@@ -43,6 +43,5 @@ layer 5: 卷积核       3 * 70 * 1 * 256   l2 = (106 - 3 + 1)/1 = 104     batch
 layer 6: 卷积核       3 * 70 * 1 * 256   l2 = (104 - 3 + 1)/1 = 102     batch * 102 * 1 * 256
          池化         1 * 3 * 1 * 1      l2 = 102/3 = 34                batch * 34 * 1 * 256
          transpose   [0, 1, 3, 2]                                      batch * 34 * 256 * 1
-
-
 ```
+> 因此，<img src="https://latex.codecogs.com/svg.latex?l_{6}&space;=&space;(l_{0}-96)/27&space;=&space;(1014&space;-&space;96)/27&space;=&space;34" title="l_{6} = (l_{0}-96)/27 = (1014 - 96)/27 = 34" />
