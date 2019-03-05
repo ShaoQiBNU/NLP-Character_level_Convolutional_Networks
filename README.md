@@ -1,0 +1,2 @@
+# NLP-Character_level_Convolutional_Networks
+Character-level Convolutional Networks for Text Classification解读
